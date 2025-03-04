@@ -1,16 +1,18 @@
 <!-- Day 1 -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark Manager</title>
     <link rel="stylesheet" href="style.css">
- </head>
- <body>
-    <h1>Bookmarks</h1>
+</head>
+
+<body>
+    <h1 class="box cursive">Bookmarks</h1>
     <h2>Primary Bookmarks</h2>
-    <table>
+    <table class="box">
         <tr>
             <th>Logo</th>
             <th>Name</th>
@@ -28,7 +30,52 @@
             <td><a target="_blank" href="https://www.facebook.com">Open Facebook</a></td>
         </tr>
     </table>
-    <h2>Secondary Bookmarks</h2>
-    
- </body>
- </html>
+    <form action="post">
+        <div>
+            <label for="username">Enter Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter username">
+        </div>
+        <div>
+            <label for="Gender">Select Gender</label>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Checkbox" id="CB1">
+            <label for="Checkbox">Select</label>
+        </div>
+        <div>
+            <select class="box cursive" name="fruits" id="select1">
+                <option value="apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi">Kiwi</option>
+            </select>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed rem doloremque non ut voluptatum
+                corporis totam beatae. Quibusdam accusamus ad libero dolores, beatae culpa possimus eveniet maiores
+                alias optio iste tempora. Optio quasi perspiciatis beatae nemo! Maiores quae, adipisci suscipit
+                accusamus culpa animi possimus!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam quo quae.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed rem doloremque non ut voluptatum
+                corporis totam beatae. Quibusdam accusamus ad libero dolores, beatae culpa possimus eveniet maiores
+                alias optio iste tempora. Optio quasi perspiciatis beatae nemo! Maiores quae, adipisci suscipit
+                accusamus culpa animi possimus!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam quo quae.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed rem doloremque non ut voluptatum
+                corporis totam beatae. Quibusdam accusamus ad libero dolores, beatae culpa possimus eveniet maiores
+                alias optio iste tempora. Optio quasi perspiciatis beatae nemo! Maiores quae, adipisci suscipit
+                accusamus culpa animi possimus!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam quo quae.</p>
+        </div>
+    </form>
+
+</body>
+
+</html>

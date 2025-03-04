@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&display=swap');
+
+div{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:link{
+    color: pink;
+}
+.box{
+    background-color: gainsboro;
+    border: 2px solid blue;
+    
+}
+.cursive{
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-align: center;
+}
+div p{
+    background-color: aqua;
+    color: red;
+}
+p:first-child{
+    background-color: blue;
+    columns: green;
+}
