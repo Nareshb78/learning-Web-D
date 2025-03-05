@@ -1,0 +1,24 @@
+header{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.cursive{
+    font-family: cursive;
+    
+}
+.beige{
+    background-color: beige;
+    font-size: large;
+}
+a:hover{
+    color: aquamarine;
+}
+a:visited{
+    color: red;
+}
