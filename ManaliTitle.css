@@ -1,0 +1,39 @@
+.page{
+    background-color:grey;
+}
+.bigbox{
+    height: 350px;
+    width: 210px;
+    border-radius: 7px;
+    margin: 20px;;
+    background-color: aliceblue;
+}
+.image img{
+    border-radius: 7px;
+    padding: 5px;
+}
+.capsules span{
+    margin: 5px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: small;
+    color: grey;
+}
+.Text{
+    color: darkgrey;
+    margin: 5px;
+}
+.button{
+    text-align: center;
+    
+}
+.button button{
+    border-radius: 40px;
+    background-color: rgb(199, 208, 244);
+    color: rgb(91, 158, 221);
+    border-color: grey;
+    padding: 5px 17px;
+    border: none;
+    font-size: 10px;
+}
