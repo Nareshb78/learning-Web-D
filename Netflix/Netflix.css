@@ -71,31 +71,36 @@ nav{
     margin-bottom: 10px;
 }
 .twobox{
-
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 2;
     width: 50vw;
+    flex-wrap: wrap;
 }
 .email{
-    height: 50px;
-    width: 300px; 
-    border: 2px solid rgb(135, 133, 133);
-    margin: 10px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 12px;
+    height: 30px;
+    font-size: bold;
+    font-size: large;
+    width: 300px;
+    border: 1px solid grey;
     border-radius: 6px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+    z-index: 2;
 }
 .getstarted{
-    height: 50px;
-    width: 180px; 
+    height: 30px;
+    width: auto; 
     border: 2px solid rgb(135, 133, 133);
     margin: 10px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
