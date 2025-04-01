@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 9px;
+    
+}
