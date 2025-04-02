@@ -18,3 +18,13 @@ li{
     border-radius: 9px;
     
 }
+.button{
+    background-color: aqua;
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+}
+.pop:hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+}

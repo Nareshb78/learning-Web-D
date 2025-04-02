@@ -57,6 +57,8 @@ const laptop = {
     }
 };
 
+let button = "BUTTON";
+
 let content = `
     <main>
         <h2>Laptop</h2>
@@ -67,7 +69,23 @@ let content = `
             <li>Mouse Name : ${laptop.mouse.name}</li>
             <li>Mouse DPI : ${laptop.mouse.dpi}</li>
         </ul></div>
+        <button class="button">
+                ${button}
+        </button>   
     </main>
 `;
 document.body.innerHTML = content;
 
+let test = document.querySelector(".button");
+test.addEventListener("click",(event)=>{
+    test.classList.add("pop")
+    if(test.innerHTML == button){
+        test.innerHTML = "CHANGED";
+        test.style.backgroundColor = "red";
+    }
+    else{
+        test.innerHTML = button;
+        test.style.backgroundColor = "blue";
+    }
+
+})
