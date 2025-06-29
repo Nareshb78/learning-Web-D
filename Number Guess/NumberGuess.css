@@ -1,0 +1,9 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    background-color: rgb(32, 31, 31);
+     color: white;
+}

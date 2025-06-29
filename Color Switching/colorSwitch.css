@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin: 20px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-radius: 20px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+#grey{
+    background-color: grey;
+}
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#white{
+    background-color: white;
+}
+.add-color{
+    margin: 20px;
+    padding: 20px;
+}
+.btn{
+    margin: 20px;
+}
+
