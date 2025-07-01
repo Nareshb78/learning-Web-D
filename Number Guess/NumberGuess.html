@@ -9,17 +9,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>
+       <div class="wrapper">
+            <h1>
             Guess the number Game
-        </h1>
-        <form class="form">
-        <label for="guessed">Guess a number between 1 to 100</label>
-        <input type="text" name="guessed" id="guessed">
-        <button>Confirm</button>
-        </form>
-
-        <h5>Number of guess remaining : <span id="remain">10</span></h5>
-        <h5>Previous Guesses : <span id="pre"></span></h5>
+            </h1>
+            <form class="form">
+            <label for="guessed">Guess a number between 1 to 100</label>
+            <input type="text" name="guessed" id="guessed">
+            <button id="submit">Confirm</button>
+            </form>
+            <p>Number of guess remaining : <span id="remain">10</span></p>
+            <p>Previous Guesses : <span id="pre"></span></p>
+            <p><span id="LoworHigh"></span></p>
+            <p><span id="startNew"></span></p>
+       </div>
     </div>
 </body>
 </html>
