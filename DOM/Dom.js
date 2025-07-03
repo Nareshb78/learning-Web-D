@@ -1,4 +1,6 @@
-const parent = document.querySelector('.parent')
-console.log(parent)
-const parent2  = document.getElementsByClassName('parent')
-console.log(parent2) 
+const obj = {
+    name: "Dom",
+    age: 20
+}
+console.log(obj["name"]); // Dom
+console.log(obj.name); // Dom
